@@ -5,3 +5,10 @@ export interface Match{
     resultado:string;
     estado:string;
 }
+
+export interface UpcomingMatch {
+    id: number;
+    local: string;
+    visitante: string;
+    fecha: string;
+}
