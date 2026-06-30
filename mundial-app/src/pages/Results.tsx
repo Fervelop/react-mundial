@@ -1,5 +1,5 @@
 import {useEffect,useState} from "react";
-import {getMatches} from "../services/matchService";
+import {getResults} from "../services/matchService";
 import MatchCard from "../components/MatchCard";
 import Navbar from "../components/Navbar";
 import type { Match } from "../types/Match";
